@@ -2234,6 +2234,32 @@ defined_text = {
 	}
 }
 
+defined_text = {
+	name = GetKeepCommissarsOrganizationName
+	text = {
+		trigger = {
+			NOT = { has_government = communism }
+		}
+		localization_key = SOV_keep_commissars_organization_alt
+	}
+	text = {
+		localization_key = SOV_keep_commissars_organization_default
+	}
+}
+
+defined_text = {
+	name = GetKeepCommissarsOrganizationDesc
+	text = {
+		trigger = {
+			NOT = { has_government = communism }
+		}
+		localization_key = SOV_keep_commissars_organization_alt_desc
+	}
+	text = {
+		localization_key = SOV_keep_commissars_organization_default_desc
+	}
+}
+
 ### For Turkey
 defined_text = {
 	name = GetBraceAgainstTheRedMenaceName
