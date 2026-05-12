@@ -1,5 +1,4 @@
 # Aleksandra Kollontay has an unsed portrait
-# Viktor Baydalakov has an unused portrait
 
 characters = {
 
@@ -2087,6 +2086,28 @@ characters = {
 			attack_skill = 2
 			defense_skill = 2
 			planning_skill = 1
+			logistics_skill = 2
+			visible = {
+				NOT = { has_character_flag = SOV_exiled_flag }
+				ROOT = { has_completed_focus = SOV_beaten_but_not_defeated }
+			}
+		}
+	}
+
+	SOV_viktor_baydalakov = {
+		name = SOV_viktor_baydalakov
+		portraits = {
+			army = {
+				large = "GFX_portrait_SOV_victor_baydalakov"
+				small = "GFX_idea_SOV_victor_baydalakov"
+			}
+		}
+		corps_commander = {
+			traits = { politically_connected cavalry_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
 			logistics_skill = 2
 			visible = {
 				NOT = { has_character_flag = SOV_exiled_flag }

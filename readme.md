@@ -1,6 +1,9 @@
 # Rise of Nations: Vanilla Fix
 Rise of Nations: Vanilla Fix is a mod that fixes many vanilla bugs, optimizes the game to run smoother and to a limited extent improves the AI.
 
+## Additions
+- Added Viktor Baydalakov as a general for the White Russian forces.
+
 ## Bugfixes
 - Added some more missing modifier tooltips.
 
