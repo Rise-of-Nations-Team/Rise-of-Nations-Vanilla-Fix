@@ -1,0 +1,64 @@
+generic_STOP_GARRISONING_DURING_CIVIL_WAR = { ## i tried my best :( (still no worjki_)
+	enable = {
+		has_civil_war = yes
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = garrison
+		value = -150
+	}
+}
+
+generic_slightly_naval_focused_nation = {
+	enable = {
+		OR = {
+			original_tag = ARG 
+			original_tag = BRA 
+			original_tag = CHL
+		}
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 45
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 15
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 10
+	}
+}
+
+PRU_blockade_guayaquil_AI = {
+	enable = {
+		has_war_with = ECU 
+	}
+
+	abort = {
+		NOT = {
+			has_war_with = ECU
+		}
+	}
+
+	ai_strategy = {
+		type = naval_convoy_raid_region
+		id = 105
+		value = 200
+	}
+}
