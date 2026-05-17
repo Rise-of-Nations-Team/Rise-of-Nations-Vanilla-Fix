@@ -4242,9 +4242,16 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 
 		completion_reward = {
-			add_to_variable = { SOV_defense_industry_production_factory_max_efficiency_factor = 0.05 }
-			add_to_variable = { SOV_defense_industry_production_factory_efficiency_gain_factor = -0.05 }
-			custom_effect_tooltip = SOV_pc_of_mechanical_engineering_ns_tt
+			custom_effect_tooltip = SOV_modify_def_ind_tt
+			add_to_variable = {
+				SOV_defense_industry_production_factory_max_efficiency_factor = 0.05
+				tooltip = production_factory_max_efficiency_factor_tt
+			}
+			add_to_variable = {
+				SOV_defense_industry_production_factory_efficiency_gain_factor = -0.05
+				tooltip = production_factory_efficiency_gain_factor_tt
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
 
 			if = { #DEFAULT COMMIE
 				limit = {
@@ -4313,8 +4320,12 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH}
 
 		completion_reward = {
-			set_variable = { SOV_defense_industry_tank_manufacturer_cost_factor = -0.25 }
-			custom_effect_tooltip = SOV_superior_war_machines_ns_tt
+			custom_effect_tooltip = SOV_modify_def_ind_tt
+			add_to_variable = {
+				SOV_defense_industry_tank_manufacturer_cost_factor = -0.25
+				tooltip = tank_manufacturer_cost_factor_tt
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
 
 			add_tech_bonus = {
 				name = SOV_superior_war_machines
@@ -4443,8 +4454,12 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_RESEARCH}
 
 		completion_reward = {
-			set_variable = { SOV_defense_industry_materiel_manufacturer_cost_factor = -0.25 }
-			custom_effect_tooltip = SOV_the_means_to_wage_war_ns_tt
+			custom_effect_tooltip = SOV_modify_def_ind_tt
+			add_to_variable = {
+				SOV_defense_industry_materiel_manufacturer_cost_factor = -0.25
+				tooltip = materiel_manufacturer_cost_factor_tt
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
 
 			add_tech_bonus = {
 				name = SOV_the_means_to_wage_war
@@ -4724,9 +4739,16 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 
 		completion_reward = {
-			add_to_variable = { SOV_defense_industry_breakthrough_factor = 0.05 }
-			add_to_variable = { SOV_defense_industry_army_artillery_defence_factor = 0.05 }
-			custom_effect_tooltip = SOV_pc_of_mortar_armament_ns_tt
+			custom_effect_tooltip = SOV_modify_def_ind_tt
+			add_to_variable = {
+				SOV_defense_industry_breakthrough_factor = 0.05
+				tooltip = breakthrough_factor_tt
+			}
+			add_to_variable = {
+				SOV_defense_industry_army_artillery_defence_factor = 0.05
+				tooltip = army_artillery_defence_factor_tt
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
 
 			if = { #DEFAULT COMMIE
 				limit = {
@@ -4788,8 +4810,12 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_ARMY_XP}
 
 		completion_reward = {
-			add_to_variable = { SOV_defense_industry_land_equipment_upgrade_xp_cost = -0.1 }
-			custom_effect_tooltip = SOV_development_of_tankograd_ns_tt
+			custom_effect_tooltip = SOV_modify_def_ind_tt
+			add_to_variable = {
+				SOV_defense_industry_land_equipment_upgrade_xp_cost = -0.1
+				tooltip = land_equipment_upgrade_xp_cost_tt
+			}
+			custom_effect_tooltip = generic_skip_one_line_tt
 
 			custom_effect_tooltip = SOV_development_of_tankograd_factories_tt
 			#This is just for tooltip purposes
@@ -4952,10 +4978,19 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
-			add_to_variable = { SOV_defense_industry_production_speed_coastal_bunker_factor = 0.05 }
-			add_to_variable = { SOV_defense_industry_production_speed_bunker_factor = 0.05 }
-			add_to_variable = { SOV_defense_industry_max_dig_in_factor = 0.05 }
-			custom_effect_tooltip = SOV_military_engineering_university_ns_tt
+			custom_effect_tooltip = SOV_modify_def_ind_tt
+			add_to_variable = {
+				SOV_defense_industry_production_speed_coastal_bunker_factor = 0.05
+				tooltip = production_speed_coastal_bunker_factor_tt
+			}
+			add_to_variable = {
+				SOV_defense_industry_production_speed_bunker_factor = 0.05
+				tooltip = production_speed_bunker_factor_tt
+			}
+			add_to_variable = {
+				SOV_defense_industry_max_dig_in_factor = 0.05
+				tooltip = max_dig_in_factor_tt
+			}
 		}
 	}
 

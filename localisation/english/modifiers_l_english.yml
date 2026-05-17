@@ -1280,6 +1280,7 @@
  naval_equipment_upgrade_xp_cost_tt: " $MODIFIER_NAVAL_EQUIPMENT_UPGRADE_XP_COST$: $RIGHT|-=%1$"
  MODIFIER_LAND_EQUIPMENT_UPGRADE_XP_COST:0 "Land Equipment Experience Cost"
  MODIFIER_LAND_EQUIPMENT_UPGRADE_XP_COST_DESC:0 "Experience cost factor when changing a land equipment"
+ land_equipment_upgrade_xp_cost_tt: " $MODIFIER_LAND_EQUIPMENT_UPGRADE_XP_COST$: $RIGHT|-=%1$"
  MODIFIER_AIR_EQUIPMENT_UPGRADE_XP_COST:0 "Air Equipment Experience Cost"
  MODIFIER_AIR_EQUIPMENT_UPGRADE_XP_COST_DESC:0 "Experience cost factor when changing an air equipment"
  MODIFIER_REPAIR_SPEED_FACTOR:0 "Ship Repair Speed"
