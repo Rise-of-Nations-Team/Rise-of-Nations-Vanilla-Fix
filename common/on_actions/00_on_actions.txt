@@ -885,6 +885,22 @@ on_actions = {
 					country_event = { id = france.32 }
 				}
 			}
+
+			ROOT = {
+				set_country_flag = { flag = recent_wardec value = 1 days = 90 }
+			}
+			FROM = {
+				set_country_flag = { flag = recent_wardec value = 1 days = 90 }
+				# If attacker is 25%+ stronger, victim holds defensively for 60 days
+				if = {
+					limit = {
+						PREV = {
+							strength_ratio = { tag = PREV ratio > 1.25 }
+						}
+					}
+					set_country_flag = { flag = hold_against_@PREV value = 1 days = 60 }
+				}
+			}
 		}
 	}
 
@@ -5429,6 +5445,16 @@ on_actions = {
 					OWNER = { NOT = { tag = ROOT } }
 				}
 				SF_marine_demoliton_effect = yes # Note that the state flag condition is not preventing it from doing 1 damage per division 
+			}
+
+		 	if = {
+				limit = {
+					NOT = { has_state_flag = recent_naval_invasion_flag }
+				}
+				set_state_flag = {
+					flag = recent_naval_invasion_flag
+					days = 180
+				}
 			}
 	 	}
 	}

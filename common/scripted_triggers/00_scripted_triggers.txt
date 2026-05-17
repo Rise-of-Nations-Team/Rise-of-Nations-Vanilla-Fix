@@ -1481,3 +1481,68 @@ check_allow_alternate_political_events = {
 	}
 }
 
+has_green_air = {
+	NOT = {
+		any_enemy_country = {
+			has_deployed_air_force_size = {
+				size > ROOT.num_deployed_planes_with_type@small_plane_airframe
+				type = fighter
+			}
+		}
+	}
+}
+
+has_red_air = {
+	any_enemy_country = {
+		has_deployed_air_force_size = {
+			size > ROOT.num_deployed_planes_with_type@small_plane_airframe
+			type = fighter
+		}
+	}
+}
+
+has_manpower_and_equipment_surplus = {
+	manpower_per_military_factory > 1000
+	check_variable = { fielded_eq_ratio > 0.90 }
+	has_crisis = no
+}
+
+has_manpower_or_equipment_shortage = {
+	OR = {
+		has_crisis = yes
+		manpower_per_military_factory < 500
+		check_variable = { fielded_eq_ratio < 0.70 }
+	}
+}
+
+has_an_actual_civil_war = {
+	has_civil_war = yes
+	NOT = {
+		any_enemy_country = {
+			has_civil_war = no
+		}
+	}
+}
+
+has_mutiny = {
+	OR = {
+		has_idea = mutiny_1
+		has_idea = mutiny_2
+		has_idea = mutiny_3
+	}
+}
+
+has_strikes = {
+	OR = {
+		has_idea = strikes_1
+		has_idea = strikes_2
+		has_idea = strikes_3
+	}
+}
+
+has_crisis = {
+	OR = {
+		has_mutiny = yes
+		has_strikes = yes
+	}
+}
