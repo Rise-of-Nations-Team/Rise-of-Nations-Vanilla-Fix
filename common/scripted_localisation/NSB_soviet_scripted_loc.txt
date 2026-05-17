@@ -1989,6 +1989,32 @@ defined_text = {
 }
 
 defined_text = {
+	name = GetFoundComeconName
+	text = {
+		trigger = {
+			NOT = { has_government = communism }
+		}
+		localization_key = SOV_found_the_comecon_alt
+	}
+	text = {
+		localization_key = SOV_found_the_comecon_default
+	}
+}
+
+defined_text = {
+	name = GetFoundComeconDesc
+	text = {
+		trigger = {
+			NOT = { has_government = communism }
+		}
+		localization_key = SOV_found_the_comecon_alt_desc
+	}
+	text = {
+		localization_key = SOV_found_the_comecon_default_desc
+	}
+}
+
+defined_text = {
 	name = GetComeconName
 	text = {
 		trigger = {
