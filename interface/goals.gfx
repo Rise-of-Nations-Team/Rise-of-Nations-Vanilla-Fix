@@ -6673,7 +6673,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_SOV_infrastructure_effort_nsb_ccp_2d_sov_compatibility"
-		texturefile = "gfx/interface/goals/goal_generic_construction2.dds"			
+		texturefile = "gfx/interface/goals/goal_generic_construct_infrastructure.dds"			
 	}
 
 	SpriteType = {
@@ -6889,7 +6889,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_SOV_revive_the_stakhanovite_movement_ccp_2d_sov_compatibility"
-		texturefile = "gfx/interface/goals/goal_generic_construction2.dds"			
+		texturefile = "gfx/interface/goals/focus_ICE_embrace_the_workers_revolution.dds"			
 	}	
 
 	SpriteType = {
@@ -7024,7 +7024,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_SOV_planned_economy_ccp_2d_sov_compatibility"
-		texturefile = "gfx/interface/goals/goal_generic_positive_trade_relations.dds"			
+		texturefile = "gfx/interface/goals/focus_CHI_planned_economy.dds"			
 	}
 
 	SpriteType = {
@@ -7243,7 +7243,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_SOV_the_new_soviet_woman_ccp_2d_sov_compatibility"
-		texturefile = "gfx/interface/goals/goal_generic_support_communism.dds"			
+		texturefile = "gfx/interface/goals/focus_ARG_women_in_industry.dds"			
 	}	
 
 	SpriteType = {
