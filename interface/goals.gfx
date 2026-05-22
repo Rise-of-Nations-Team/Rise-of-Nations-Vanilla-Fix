@@ -1214,6 +1214,51 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_CZE_demand_the_czech_corridor.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_focus_CZE_continue_industrial_relocation_schemes"
+		texturefile = "gfx/interface/goals/focus_CZE_continue_industrial_relocation_schemes.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_skoda_menace"
+		texturefile = "gfx/interface/goals/focus_CZE_skoda_menace.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_rszml"
+		texturefile = "gfx/interface/goals/focus_CZE_rszml.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_czos"
+		texturefile = "gfx/interface/goals/focus_CZE_czos.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_forgive_trading_debts"
+		texturefile = "gfx/interface/goals/focus_CZE_forgive_trading_debts.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_mobilize_the_sokol"
+		texturefile = "gfx/interface/goals/focus_CZE_mobilize_the_sokol.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_trinec_ironwork"
+		texturefile = "gfx/interface/goals/focus_CZE_trinec_ironwork.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_industral_devlopment_bucket"
+		texturefile = "gfx/interface/goals/focus_generic_industral_devlopment_bucket.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_CZE_czechoslovakian_hegemony"
+		texturefile = "gfx/interface/goals/focus_CZE_czechoslovakian_hegemony.dds"
+	}
+
 	#Industry focus overlays
 	SpriteType = {
 		name = "GFX_focus_overlay_cze_industry_focus"
