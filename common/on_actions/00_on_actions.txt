@@ -486,16 +486,6 @@ on_actions = {
 				clr_country_flag = TO_joined_brussels_treaty
 			}
 
-			if = {
-				limit = {
-					AND = {
-						tag = CAN
-						NOT = { has_dlc = "Together for Victory" }
-					}
-				}
-				abandon_colony_tag = yes
-			}
-
 			IF = {
 				limit = {
 					NOT = {
@@ -529,7 +519,7 @@ on_actions = {
 			# Sunset invasion check
 			if = {
 				limit = {
-					FROM = { is_puppet = no }
+					FROM = { is_subject = no }
 					OR = {
 						AND = {
 							tag = MEX
@@ -588,7 +578,7 @@ on_actions = {
 			# Sunset invasion check
 			if = {
 				limit = {
-					is_puppet = no
+					is_subject = no
 					OR = {
 						AND = {
 							tag = MEX
@@ -632,7 +622,7 @@ on_actions = {
 			# Sunset invasion check
 			if = {
 				limit = {
-					is_puppet = no
+					is_subject = no
 					OR = {
 						AND = {
 							tag = MEX
@@ -1142,7 +1132,7 @@ on_actions = {
 				limit = {
 					original_tag = FRA
 					has_government = democratic
-					is_puppet = no
+					is_subject = no
 				}
 				drop_cosmetic_tag = yes
 			}
@@ -1583,7 +1573,7 @@ on_actions = {
 						original_tag = MAL
 						original_tag = INS
 					}
-					is_puppet = no
+					is_subject = no
 				}
 				abandon_colony_tag = yes
 			}
@@ -4771,10 +4761,8 @@ on_actions = {
 					}
 					ROOT = {
 						NOT = {
-							OR = {
-								original_tag = GER
-								original_tag = SIL
-							}
+							original_tag = GER
+							original_tag = SIL
 						}
 					}
 				}
@@ -5454,6 +5442,7 @@ on_actions = {
 				set_state_flag = {
 					flag = recent_naval_invasion_flag
 					days = 180
+					value = 1
 				}
 			}
 	 	}
