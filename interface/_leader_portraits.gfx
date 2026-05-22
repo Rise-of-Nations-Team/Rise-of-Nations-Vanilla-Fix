@@ -492,7 +492,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_portrait_CAT_lluis_companys"
-		texturefile = "gfx/leaders/HUN/portrait_CAT_lluis_companys.dds"
+		texturefile = "gfx/leaders/CAT/portrait_CAT_lluis_companys.dds"
 	}
 
 
@@ -3007,22 +3007,22 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Akram_Sattari
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_2.dds"
 	}
 
 	spriteType = {
 		name = GFX_portrait_Yaqub_Khan
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_1.dds"
 	}
 
 	spriteType = {
 		name = GFX_portrait_Mihrdil_Shahnawaz
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_3.dds"
 	}
 
 	spriteType = {
 		name = GFX_portrait_Sardar_Shah_Wali_Khan
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_land_3.dds"
 	}
 
 	spriteType = {
@@ -5080,17 +5080,17 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Yusuf_Salman_Yusuf
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_navy_3.dds"
 	}
 
 	spriteType = {
 		name = GFX_portrait_Abd_al-Malik_ibn_Hisham
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_2.dds"
 	}
 
 	spriteType = {
 		name = GFX_portrait_Faisal_II
-		texturefile = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_1.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_land_1.dds"
 	}
 
 	spriteType = {
@@ -5995,17 +5995,17 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Ahmad_ibn_Jafar
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_2.dds"
 	}
 
 	spriteType = {
 		name = GFX_portrait_Halil_ibn_Halil
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_1.dds"
 	}
 
 	spriteType = {
 		name = GFX_portrait_Iskandar_ibn_Ali
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_3.dds"
 	}
 
 	spriteType = {
@@ -6095,12 +6095,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Dalir_Pesyan
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_2.dds"
 	}
 
 	spriteType = {
 		name = GFX_portrait_Sohrab_Tahmasebi
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_3.dds"
 	}
 
 	spriteType = {
@@ -7474,17 +7474,17 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Chandler_ibn_Khalid
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_2.dds"
 	}
 
 	spriteType = {
 		name = GFX_portrait_Mustafa_ibn_Umar
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_1.dds"
 	}
 
 	spriteType = {
 		name = GFX_portrait_Fuad_ibn_Yusuf
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_3.dds"
 	}
 
 	spriteType = {
@@ -7754,7 +7754,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Ahmed_Ben_Bella
-		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_1.dds
 	}
 
 	spriteType = {
@@ -7924,17 +7924,17 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Muhammad_Naguib
-		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_democratic1.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_5.dds
 	}
 
 	spriteType = {
 		name = GFX_portrait_Ahmed_Husayn
-		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_3.dds
 	}
 
 	spriteType = {
 		name = GFX_portrait_Hosni_al_Arabi
-		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_navy_3.dds
 	}
 
 	spriteType = {
@@ -8024,22 +8024,22 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Hashim_Kheir
-		texturefile = gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_2.dds
 	}
 
 	spriteType = {
 		name = GFX_portrait_Saeed_Ahmadi
-		texturefile = gfx/leaders/JOR/Portrait_Arabia_Generic_fascism1.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_6.dds
 	}
 
 	spriteType = {
 		name = GFX_portrait_Abdullah_bin_al_Hussein
-		texturefile = gfx/leaders/JOR/Portrait_Arabia_Generic_land_3.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_land_3.dds
 	}
 
 	spriteType = {
 		name = GFX_portrait_Fuad_Nassar
-		texturefile = gfx/leaders/JOR/Portrait_Arabia_Generic_navy_2.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_navy_2.dds
 	}
 
 	spriteType = {
@@ -8079,12 +8079,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Qazi_Muhammad
-		texturefile = gfx/leaders/SYR/Portrait_Arabia_Generic_1.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_1.dds
 	}
 
 	spriteType = {
 		name = GFX_portrait_Sheikh_Mahmud_Barzanji
-		texturefile = gfx/leaders/SYR/Portrait_Arabia_Generic_land_1.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_land_1.dds
 	}
 
 	spriteType = {
@@ -8094,7 +8094,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Ferzende_Bege_Heseni
-		texturefile = gfx/leaders/SYR/Portrait_Arabia_Generic_land_1.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_land_1.dds
 	}
 
 	spriteType = {
@@ -8114,7 +8114,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Bashir_es_Sadawi
-		texturefile = gfx/leaders/LBA/Portrait_Arabia_Generic_democratic1.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_5.dds
 	}
 
 	spriteType = {
@@ -8124,17 +8124,17 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Idris_Senussi
-		texturefile = gfx/leaders/LBA/Portrait_Arabia_Generic_land_3.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_land_3.dds
 	}
 
 	spriteType = {
 		name = GFX_portrait_Hassan_as_Senussi
-		texturefile = gfx/leaders/LBA/Portrait_Arabia_Generic_communism1.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_4.dds
 	}
 
 	spriteType = {
 		name = GFX_portrait_Hashim_al_Atassi
-		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_3.dds
 	}
 
 	spriteType = {
@@ -8144,12 +8144,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Melick_Yarad
-		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_land_3.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_land_3.dds
 	}
 
 	spriteType = {
 		name = GFX_portrait_Rami_Sarraff
-		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_land_2.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_land_2.dds
 	}
 
 	spriteType = {
@@ -8169,7 +8169,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Mohammed_V
-		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_land_1.dds
 	}
 
 	spriteType = {
@@ -8189,12 +8189,12 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Ahmed_Hilmi_Pasha
-		texturefile = gfx/leaders/PAL/Portrait_Arabia_Generic_navy_1.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_navy_1.dds
 	}
 
 	spriteType = {
 		name = GFX_portrait_Amin_al_Husseini
-		texturefile = gfx/leaders/PAL/Portrait_Arabia_Generic_land_2.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_land_2.dds
 	}
 
 	spriteType = {
@@ -8204,7 +8204,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Bulus_Farah
-		texturefile = gfx/leaders/PAL/Portrait_Arabia_Generic_2.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_2.dds
 	}
 
 	spriteType = {
@@ -8229,17 +8229,17 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Antun_Saadeh
-		texturefile = gfx/leaders/SYR/Portrait_Arabia_Generic_land_3.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_land_4.dds
 	}
 
 	spriteType = {
 		name = GFX_portrait_Ghazi_bin_Faisal
-		texturefile = gfx/leaders/SYR/Portrait_Arabia_Generic_2.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_2.dds
 	}
 
 	spriteType = {
 		name = GFX_portrait_Khalid_Bakdash
-		texturefile = gfx/leaders/SYR/Portrait_Arabia_Generic_1.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_1.dds
 	}
 
 	spriteType = {
@@ -8254,7 +8254,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Habib_Bourguiba
-		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_navy_3.dds
 	}
 
 	spriteType = {
@@ -8294,7 +8294,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_El_Ouali_Mustapha_Sayed
-		texturefile = gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds
+		texturefile = gfx/leaders/Arabia/Portrait_Arabia_Generic_1.dds
 	}
 
 	spriteType = {
@@ -8869,14 +8869,14 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_IMO_muhammad_khalili
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_3.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_3.dds"
 	}
 
 	## LEB ##
 
 	spriteType = {
 		name = GFX_portrait_LEB_abdallah_beyhum
-		texturefile = "gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+		texturefile = "gfx/leaders/Arabia/Portrait_Arabia_Generic_2.dds"
 	}
 
 
